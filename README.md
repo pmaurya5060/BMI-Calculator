@@ -28,3 +28,28 @@ BMI-Calculator/
 ├── style.css       # Styles for layout and visuals
 ├── script.js       # JavaScript logic for BMI calculation
 └── README.md       # Project documentation
+
+⚙️ How It Works
+User inputs height and weight.
+
+On form submission, BMI is calculated using:
+```
+BMI = weight / ((height * height) / 10000)
+```
+Based on the result, a health category is shown:
+
+Underweight: BMI < 18.6
+
+Normal weight: 18.6 ≤ BMI ≤ 24.9
+
+Overweight: BMI > 24.9
+
+
+
+🛠️ Technologies Used
+HTML5 – Structure
+CSS3 – Styling
+JavaScript – BMI logic and interactivity
+
+🙋‍♂️ Author
+Priyanshu Maurya
